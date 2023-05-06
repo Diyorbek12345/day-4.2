@@ -1,0 +1,152 @@
+#choose {
+  padding-bottom: 200px;
+}
+
+.choose__content {
+  background-color: #2c343e;
+  border-radius: 10px;
+  padding: 100px 86px;
+  text-align: center;
+  position: relative;
+}
+.choose__empty{
+   position: absolute;
+  width: 100%;
+  height: 240px;
+  background-color: #2c343e;
+  border-radius: 10px;
+  z-index: -1;
+  right: 0px;
+  top: 319px;
+}
+.choose__title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #FEFCF7;
+  font-family: $font2;
+  margin-bottom: 32px;
+}
+
+.choose__text {
+  max-width: 540px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin: 0 auto;
+}
+
+.choose__item {
+  background: #0E8784;
+  border-radius: 8px;
+  max-width: 350px;
+  padding: 72px 48px 48px 47px;
+  text-align: center;
+  margin: 0 auto;
+
+
+  &::before {
+    content: "";
+    width: 72px;
+    height: 72px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-bottom: 56px;
+    background-image: url(../../img/coffee-bean\ \(1\).svg);
+  }
+
+  &:nth-child(2)::before {
+    background-image: url(../../img/Combined\ Shape\ \(2\).svg);
+  }
+
+  &:nth-child(3)::before {
+    background-image: url(../../img/Combined\ Shape\ \(3\).svg);
+  }
+}
+
+.choose__list {
+  max-width: 1111px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+}
+
+
+.choose__sub-title {
+  max-width: 255px;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #FEFCF7;
+  font-family: "$font2";
+  margin-bottom: 24px;
+}
+
+.choose__des {
+  max-width: 255px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FEFCF7;
+}
+
+.item2::before {
+  content: "";
+  width: 72px;
+  height: 72px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-bottom: 56px;
+  background-image: url(../../img/Combined\ Shape\ \(2\).svg);
+}
+
+@media screen and (max-width:1000px) {
+ .choose__list{
+  max-width: 90%;
+  flex-direction: column;
+  padding: 41px 48px 41px 70px;
+ }
+ .choose__item{
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  &::before{
+    flex-shrink: 0;
+    margin: 0;
+    margin-right: 55px;
+  }
+ }
+
+ .choose__empty{
+  height: 351px;
+ }
+}
+
+@media screen and (max-width:700px) {
+  .choose__item{
+    flex-direction: column;
+
+    &::before{
+      margin-bottom: 56px;
+      padding: 72px 48px 48px 47px;
+      text-align: center;
+
+    }
+  }
+  .choose__text{
+    padding: 0 20px;
+  }
+  .choose__text-block{
+    margin-left: 0;
+  }
+}
