@@ -48,9 +48,12 @@
   display: none;
 }
 
-@media screen and ( max-width:1003px){
+@media screen and ( max-width:1000px){
   .main_header__logo{
     max-width: 235px;
+  }
+  .hero__block{
+    max-width: 329px;
   }
 }
 @media screen and (max-width:700px) {
@@ -59,6 +62,10 @@
   }
   .main_header__nav{
     display: none;
+   
+  }
+  .hero__block{
+    max-width: 279px;
   }
   .main_header__logo{
   max-width: 163px;
