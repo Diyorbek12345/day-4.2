@@ -11,194 +11,195 @@
 </head>
 
 <body>
-  <header class="main_header">
+  <header id="main_header">
     <div class="container main_header__container">
       <a class="main_header__logo" href="#">
-        <img src="./img/Group 5 (5).svg" alt="img">
+        <img src="./img/main_header__logo.svg" alt="logo">
       </a>
-      <nav class="main_header__nav">
-        <ul class="main_header__list">
-          <li class="main_header__item">HOME<a href="#"></a>
-          </li>
-          <li class="main_header__item item">ABOUT US<a href="#"></a>
-          </li>
-          <li class="main_header__item">Create your plan<a href="#"></a>
-          </li>
-        </ul>
-      </nav>
-      <button class="main_header__btn"></button>
+      <div class="main_header__nav">
+        <div class="navigation">
+          <ul class="main_header__list">
+            <li class="main_header__item"><a href="#">Pricing</a>
+            </li>
+            <li class="main_header__item"><a href="#">About</a>
+            </li>
+            <li class="main_header__item"><a href="#">Contact</a>
+            </li>
+          </ul>
+          <button class="main_header__btns"></button>
+        </div>
+        <a class="main_header__btn" href="#">Schedule a Demo</a>
+      </div>
     </div>
   </header>
+
   <main>
     <section id="hero">
       <div class="container hero__container">
-        <div class="hero__box">
-          <div class="hero__block">
-            <h2 class="hero__title">Great coffee
-              made simple.</h2>
-            <p class="hero__text">Start your mornings with the world’s best coffees. Try our expertly curated artisan
-              coffees from our best roasters delivered directly to your door, at your schedule.</p>
-            <a class="hero__btn" href="#">Create your plan</a>
-          </div>
+        <div class="hero__content">
+          <h2 class="hero__title">Start building with our APIs for absolutely free.</h2>
+          <form class="hero__form" method="post">
+            <input type="email" class="input" placeholder="Enter email address" aria-label="email">
+
+          </form>
+          <button class="hero__button"><span class="second_hero__text">Schedule a Demo</span></button>
+          <a class="second_hero__btn" href="#">Schedule a Demo</a>
+          <p class="hero__text">Have any questions? <span class="hero__sentence">Contact US</span></p>
         </div>
-      </div>
-    </section>
-    <section id="collection">
-      <div class="container collection__container">
-        <ul class="collection__list">
-          <li class="collection__item">
-            <div class="collection__img-block">
-              <img src="./img/collection1.jpg" alt="img">
-            </div>
-            <div class="collection__content">
-              <h2 class="collection__title">Gran Espresso</h2>
-              <p class="collection__text">Light and flavorful blend with cocoa and black pepper for an intense
-                experience</p>
-            </div>
-          </li>
-          <li class="collection__item">
-            <div class="collection__img-block">
-              <img src="./img/collection2.jpg" alt="img">
-            </div>
-            <div class="collection__content">
-              <h2 class="collection__title">Planalto</h2>
-              <p class="collection__text">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts
-              </p>
-            </div>
-          </li>
-          <li class="collection__item">
-            <div class="collection__img-block">
-              <img src="./img/collection3.jpg" alt="img">
-            </div>
-            <div class="collection__content">
-              <h2 class="collection__title">Piccollo</h2>
-              <p class="collection__text">Mild and smooth blend featuring notes of toasted almond and dried cherry</p>
-            </div>
-          </li>
-          <li class="collection__item">
-            <div class="collection__img-block">
-              <img src="./img/collection4.jpg" alt="img">
-            </div>
-            <div class="collection__content">
-              <h2 class="collection__title">Danche</h2>
-              <p class="collection__text">Ethiopian hand-harvested blend densely packed with vibrant fruit notes</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section id="choose">
-      <div class="container choose__container">
-        <div class="choose__content">
-          <h2 class="choose__title">Why choose us?</h2>
-          <p class="choose__text">A large part of our role is choosing which particular coffees will be featured
-            in our range. This means working closely with the best coffee growers to give
-            you a more impactful experience on every level.</p>
-          <div class="choose__empty"></div>
+        <div class="hero__img">
+          <img src="./img/hero.png" alt="img">
         </div>
-        <ul class="choose__list">
-          <li class="choose__item">
-            <div class="choose__text-block">
-              <h3 class="choose__sub-title">Best quality</h3>
-              <p class="choose__des">Discover an endless variety of the world’s best artisan coffee from each of our
-                roasters.</p>
-            </div>
-          </li>
-          <li class="choose__item ">
-            <div class="choose__text-block">
-              <h3 class="choose__sub-title">Best quality</h3>
-              <p class="choose__des">Discover an endless variety of the world’s best artisan coffee from each of our
-                roasters.</p>
-            </div>
-          </li>
-          <li class="choose__item">
-            <div class="choose__text-block">
-              <h3 class="choose__sub-title">Best quality</h3>
-              <p class="choose__des">Discover an endless variety of the world’s best artisan coffee from each of our
-                roasters.</p>
-            </div>
-          </li>
-        </ul>
       </div>
     </section>
     <section id="work">
       <div class="container work__container">
-        <h2 class="work__title">How it works</h2>
-        <div class="line">
-          <span></span>
-          <span></span>
-          <span></span>
+        <div class="work__content">
+          <h2 class="work__title">Who we work with</h2>
+          <p class="work__text">Today, millions of people around the world have successfully connected their accounts to
+            apps they love using our API. We provide developers with the tools they need to create easy and accessible
+            experiences for their users. </p>
+          <div class="btns">
+            <a class="work__btn" href="#">About US</a>
+          </div>
         </div>
-        <div class="work__block">
-          <ul class="work__list">
-            <li class="work__item">
-              <div class="work__img-block">
-                <img src="./img/01 (1).svg" alt="img">
-              </div>
-              <div class="work__content">
-                <h3 class="work__sub_tittle">Pick your
-                  coffee</h3>
-                <p class="work__text">Select from our evolving range of artisan coffees. Our beans are ethically sourced
-                  and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.
-                </p>
-              </div>
-            </li>
-            <li class="work__item">
-              <div class="work__img-block">
-                <img src="./img/02 (1).svg" alt="img">
-              </div>
-              <div class="work__content">
-                <h3 class="work__sub_tittle">Choose the frequency</h3>
-                <p class="work__text text2">Customize your order frequency, quantity, even your roast style and grind
-                  type.
-                  Pause, skip or cancel your subscription with no commitment through our online portal.</p>
-              </div>
-            </li>
-            <li class="work__item item">
-              <div class="work__img-block">
-                <img src="./img/03.svg" alt="img">
-              </div>
-              <div class="work__content">
-                <h3 class="work__sub_tittle">Receive and enjoy!</h3>
-                <p class="work__text text">We ship your package within 48 hours, freshly roasted. Sit back and enjoy
-                  award-winning world-class coffees curated to provide a distinct tasting experience.</p>
-              </div>
-            </li>
-          </ul>
+
+        <ul class="work__list">
+          <li class="work__item">
+            <img src="./img/tesla.svg" alt="work__img">
+          </li>
+          <li class="work__item">
+            <div class="imges">
+              <img src="./img/microsoft.png" alt="work__img">
+            </div>
+          </li>
+          <li class="work__item">
+            <div class="imges">
+              <img src="./img/hewlet.svg" alt="work__img">
+            </div>
+          </li>
+          <li class="work__item">
+            <div class="imges">
+              <img src="./img/oracle.svg" alt="work__img">
+            </div>
+          </li>
+          <li class="work__item">
+            <div class="imges">
+              <img src="./img/google.svg" alt="work__img">
+            </div>
+          </li>
+          <li class="work__item">
+            <div class="imges">
+              <img src="./img/nvidia.svg" alt="work__img">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="easy">
+      <div class="container easy__container">
+        <div class="easy__imb-block">
+          <img src="./img/easy.svg" alt="img">
         </div>
-        <a class="work__btn" href="#">Creat your plan</a>
+        <div class="easy__content">
+          <h2 class="easy__title">Easy to implement</h2>
+          <p class="easy__text">Our API comes with just a few lines of code. You’ll be up and running in no time. We
+            built our documentation page to integrate payments functionality with ease.</p>
+        </div>
+      </div>
+    </section>
+    <section id="simple">
+      <div class="container simple__container">
+        <div class="simple__content">
+          <h2 class="simple__title">Simple UI & UX</h2>
+          <p class="simple__text">Our pre-built form is easy to integrate in your app or website’s checkout flow and
+            designed to optimize conversion. </p>
+        </div>
+        <div class="simple__img_block">
+          <div class="simple__img-1">
+            <img src="./img/phone1.svg" alt="img">
+          </div>
+          <div class="simple__img-2">
+            <img src="./img/phone2.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="cards">
+      <div class="container cards__container">
+        <ul class="cards__list">
+          <li class="cards__item">
+            <div class="cards__img-block">
+              <img src="./img/cards_img1.svg" alt="img">
+            </div>
+            <div class="cards__content">
+              <h3 class="cards__title">Personal Finances</h3>
+              <p class="cards__text">Consolidate financial data from multiple sources and categorize transactions up to
+                2 years of history. Analyze reports to reconcile activities in your account. </p>
+            </div>
+          </li>
+          <li class="cards__item">
+            <div class="cards__img-block">
+              <img src="./img/cards_img2.svg" alt="img">
+            </div>
+            <div class="cards__content">
+              <h3 class="cards__title">Banking & Coverage</h3>
+              <p class="cards__text">With our platform, you can speed up account onboarding and support ongoing payments
+                for checking, savings, credit card, and brokerage accounts.</p>
+            </div>
+          </li>
+          <li class="cards__item">
+            <div class="cards__img-block">
+              <img src="./img/cards_img3.svg" alt="img">
+            </div>
+            <div class="cards__content">
+              <h3 class="cards__title">Consumer Payments</h3>
+              <p class="cards__text">It’s easier to set up secure bank payments with us through a flow designed with the
+                user experience in mind. Customers could instantly authenticate their account.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="Start">
+      <div class="container start__container">
+        <h2 class="start__title">Ready to start?</h2>
+        <form class="start__form" method="post">
+          <input type="email" class="start__input" placeholder="Enter email address" aria-label="email">
+
+        </form>
+        <button class="start__button"><span class="second_start__text">Schedule a Demo</span></button>
+        <a class="second_start__btn" href="#">Schedule a Demo</a>
       </div>
     </section>
   </main>
-  <footer id="main_footer">
+   <footer id="main_footer">
     <div class="container main_footer__container">
+     <div class="main_footer__content">
       <a class="main_footer__logo" href="#">
-        <img src="./img/Group 5 (6).svg" alt="logo">
+        <img src="./img/footer.png" alt="logo">
       </a>
       <ul class="main_footer__list">
-        <li class="main_footer__item">
-          <a href="#">HOME</a>
+        <li class="main_footer__item">Pricing<a href="#"></a>
         </li>
-        <li class="main_footer__item">
-          <a href="#">ABOUT US</a>
+        <li class="main_footer__item">About<a href="#"></a>
         </li>
-        <li class="main_footer__item">
-          <a class="sentence" href="#">Create your plan</a>
+        <li class="main_footer__item">Contact<a href="#"></a>
         </li>
       </ul>
-      <div class="main_footer__btns">
-        <a class="main_footer_btn" href="#">
-          <img src="./img/footer.svg" alt="imges of social medias">
-        </a>
-        <a class="main_footer_btn" href="#">
-          <img src="./img/footer2.svg" alt="imges of social medias">
-        </a>
-        <a class="main_footer_btn" href="#">
-          <img src="./img/footer3.svg" alt="imges of social medias">
-        </a>
-      </div>
+     </div>
+     <div class="main_footer__imges">
+      <div class="main_footer__img">
+        <img src="./img/facebook.png" alt="img">
+       </div>
+       <div class="main_footer__img">
+        <img src="./img/twitter.png" alt="img">
+       </div>
+       <div class="main_footer__img">
+        <img src="./img/in.png" alt="img">
+       </div>
+     </div>
     </div>
-  </footer>
+   </footer>
 </body>
 
 </html>

@@ -1,0 +1,133 @@
+#Start {
+  margin-top: 150px;
+}
+
+.start__container {
+  max-width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.start__title {
+  font-family: $font;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #36536B;
+  position: absolute;
+}
+
+.start__input {
+  width: 100%;
+  padding: 16px 27px;
+  background-color: #FBFCFE;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+  border: none;
+  margin-bottom: 16px;
+}
+
+.start__form {
+  position: absolute;
+  right: 100px;
+}
+
+.second_start__btn {
+  display: none;
+}
+
+.start__button {
+  width: 183px;
+  height: 48px;
+  font-weight: 700px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FBFCFE;
+  background-color: #ba4270;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: -31px;
+  right: -15px;
+}
+
+@media screen and (max-width:900px) {
+  .start__container {
+    flex-direction: column;
+  }
+
+  .start__title {
+    margin-top: 100px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (max-width:899px) {
+  .start__container {
+    position: relative;
+  }
+
+  .start__title {
+    position: absolute;
+    bottom: 13px;
+  }
+
+  .start__button {
+    position: absolute;
+    top: 2px;
+    right: 250px;
+  }
+
+  .start__form {
+    // position: absolute;
+    margin-right: 260px;
+    margin-left: -1000px;
+
+  }
+
+}
+
+@media screen and (max-width:700px) {
+
+  .start__container {
+    position: relative;
+  }
+
+  .start__button {
+    position: absolute;
+    top: 2px;
+    right: 160px;
+  }
+
+  .start__form {
+    // position: absolute;
+    margin-right: 180px;
+    margin-left: -1000px;
+
+  }
+}
+
+@media screen and (max-width:550px) {
+  .start__container {
+    position: relative;
+  }
+
+  .start__button {
+    position: absolute;
+    top: 2px;
+    right: 80px;
+  }
+
+  .start__form {
+    // position: absolute;
+    margin-right: 80px;
+    margin-left: -1000px;
+
+  }
+}
